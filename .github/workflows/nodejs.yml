@@ -28,6 +28,7 @@ jobs:
       - name: Build product
         run: yarn build
       - name: Run test suite
-      - run: yarn test
+        run: yarn test
+
         env:
           CI: true
